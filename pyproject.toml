@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "goit-pythonweb-hw-08"
+name = "goit-pythonweb-hw-10"
 version = "0.1.0"
 description = ""
 authors = ["Arnary <anastasia.dushka1@gmail.com>"]
@@ -15,8 +15,14 @@ python-jose = {extras = ["cryptography"], version = "^3.3.0"}
 passlib = {extras = ["bcrypt"], version = "^1.7.4"}
 pydantic-settings = "^2.7.0"
 slowapi = "^0.1.9"
+uvicorn = "^0.34.0"
+libgravatar = "^1.0.4"
+fastapi-mail = "^1.4.2"
+cloudinary = "^1.41.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+package-mode = false

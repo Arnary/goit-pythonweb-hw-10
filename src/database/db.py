@@ -8,7 +8,6 @@ from sqlalchemy.ext.asyncio import (
     create_async_engine,
 )
 
-from src.conf.config import config
 
 class DatabaseSessionManager:
     def __init__(self, url: str):
